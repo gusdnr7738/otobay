@@ -1,13 +1,19 @@
-import bike1 from "../assets/bikes/bike-1.jpg";
-import bike2 from "../assets/bikes/bike-2.jpg";
-import bike3 from "../assets/bikes/bike-3.jpg";
-import bike4 from "../assets/bikes/bike-4.jpg";
-import bike5 from "../assets/bikes/bike-5.jpg";
-import bike6 from "../assets/bikes/bike-6.jpg";
-import bike7 from "../assets/bikes/bike-7.jpg";
-import bike8 from "../assets/bikes/bike-8.jpg";
-import bike9 from "../assets/bikes/bike-9.jpg";
-import detailBike from "../assets/bikes/bike-detail-1.jpg";
+import bike1 from "../assets/bikes/bike-1.JPG";
+import bike1Detail1 from "../assets/bikes/bike-1-detail-1.JPG";
+import bike1Detail2 from "../assets/bikes/bike-1-detail-2.JPG";
+import bike1Detail3 from "../assets/bikes/bike-1-detail-3.JPG";
+import bike1Detail4 from "../assets/bikes/bike-1-detail-4.JPG";
+import bike1Detail5 from "../assets/bikes/bike-1-detail-5.JPG";
+import bike1Detail6 from "../assets/bikes/bike-1-detail-6.JPG";
+import bike1Detail7 from "../assets/bikes/bike-1-detail-7.JPG";
+import bike1Detail8 from "../assets/bikes/bike-1-detail-8.JPG";
+import bike1Detail9 from "../assets/bikes/bike-1-detail-9.JPG";
+import bike1Detail10 from "../assets/bikes/bike-1-detail-10.JPG";
+import bike1Detail11 from "../assets/bikes/bike-1-detail-11.JPG";
+import bike1Detail12 from "../assets/bikes/bike-1-detail-12.JPG";
+import bike1Detail13 from "../assets/bikes/bike-1-detail-13.JPG";
+
+
 import type { Bike, BikeCategory } from "../types/bike";
 
 export const categories: BikeCategory[] = [
@@ -19,263 +25,88 @@ export const categories: BikeCategory[] = [
   "클래식",
 ];
 
-const gallery = [detailBike, bike1, bike6, bike2, bike3];
-
 export const bikes: Bike[] = [
   {
-    id: "kawasaki-ninja-400-2021",
-    name: "가와사키 닌자 400",
-    year: 2021,
-    category: "스포츠",
-    price: 5200000,
-    listedAt: "2024.05.20",
+    id: "BMW-C400GT-25",
+    name: "BMW C400GT 25년식",
+    year: 2025,
+    category: "스쿠터",
+    price: 10000000,
+    listedAt: "2026.08.25",
+
+    // 대표 이미지
     image: bike1,
-    gallery,
+
+    // 상세 이미지
+    gallery: [
+      bike1Detail1,
+      bike1Detail2,
+      bike1Detail3,
+      bike1Detail4,
+      bike1Detail5,
+      bike1Detail6,
+      bike1Detail7,
+      bike1Detail8,
+      bike1Detail9,
+      bike1Detail10,
+      bike1Detail11,
+      bike1Detail12,
+      bike1Detail13,
+    ],
+
     views: 312,
-    location: "경기 성남시",
+    location: "부산시",
     status: "판매중",
+
     description: [
-      "가와사키 닌자 400 2021년식 모델입니다.",
-      "무사고 차량이며, 정기적으로 센터에서 점검 및 관리 받았습니다.",
-      "엔진 상태 최상, 외관 깔끔합니다.",
-      "ABS, 슬리퍼 클러치 등 필요한 사양입니다.",
-      "직접 보시고 시운전 가능합니다.",
-      "쿨거래 시 네고 가능합니다. 연락주세요!",
+      "2025년식 BMW C400 GT 모델입니다.",
+      "",
+      "■ 차량 특징",
+      "2025년식의 짧은 주행거리로 관리 상태가 좋은 차량이며,",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• 탑박스",
+      "• 탑박스 브라켓",
+      "• 휴대폰 거치대",
+      "",
+      "■ 판매 가격",
+      "1,000만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
     ],
+
     specs: [
-      { label: "연식", value: "2021" },
-      { label: "주행거리", value: "12,450km" },
-      { label: "색상", value: "메탈릭 스파크 블랙" },
-      { label: "변속기", value: "수동" },
+      { label: "연식", value: "2025" },
+      { label: "주행거리", value: "3,073km" },
+      { label: "변속기", value: "자동" },
       { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "399cc" },
-      { label: "차대번호", value: "EX400G-012345" },
-      { label: "등록지역", value: "경기 성남시" },
+      { label: "배기량", value: "350cc" },  
+      { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ],
   },
+
+  // 두 번째 바이크부터도 같은 방식
+  /*
   {
-    id: "yamaha-mt-07-2020",
-    name: "야마하 MT-07",
-    year: 2020,
-    category: "네이키드",
-    price: 6300000,
-    listedAt: "2024.05.19",
+    id: "bmw-g310gs-2024",
+    name: "BMW G310GS",
+    year: 2024,
+    category: "투어러",
+    price: 5500000,
+    listedAt: "2026.08.26",
+
     image: bike2,
-    gallery: [bike2, bike6, bike8, bike1],
-    views: 228,
-    location: "서울 송파구",
-    status: "판매중",
-    description: [
-      "도심과 투어 모두 좋은 MT-07입니다.",
-      "소모품 최근 교체 완료했고 바로 운행 가능합니다.",
+
+    gallery: [
+      bike2Detail1,
+      bike2Detail2,
+      bike2Detail3,
     ],
-    specs: [
-      { label: "연식", value: "2020" },
-      { label: "주행거리", value: "18,200km" },
-      { label: "색상", value: "블랙" },
-      { label: "변속기", value: "수동" },
-      { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "689cc" },
-      { label: "차대번호", value: "RM071-458201" },
-      { label: "등록지역", value: "서울 송파구" },
-      { label: "판매상태", value: "판매중" },
-    ],
+
+    ...
   },
-  {
-    id: "honda-cbr600rr-2019",
-    name: "혼다 CBR600RR",
-    year: 2019,
-    category: "스포츠",
-    price: 7800000,
-    listedAt: "2024.05.18",
-    image: bike3,
-    gallery: [bike3, bike7, bike1, bike2],
-    views: 401,
-    location: "인천 남동구",
-    status: "판매중",
-    description: [
-      "고회전 감성이 좋은 CBR600RR입니다.",
-      "관리 상태 좋고 순정 파츠 보유 중입니다.",
-    ],
-    specs: [
-      { label: "연식", value: "2019" },
-      { label: "주행거리", value: "21,030km" },
-      { label: "색상", value: "트리컬러" },
-      { label: "변속기", value: "수동" },
-      { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "599cc" },
-      { label: "차대번호", value: "CBR60-938212" },
-      { label: "등록지역", value: "인천 남동구" },
-      { label: "판매상태", value: "판매중" },
-    ],
-  },
-  {
-    id: "honda-pcx-125-2022",
-    name: "혼다 PCX 125",
-    year: 2022,
-    category: "스쿠터",
-    price: 2100000,
-    listedAt: "2024.05.17",
-    image: bike4,
-    gallery: [bike4, bike9, bike2],
-    views: 189,
-    location: "경기 수원시",
-    status: "판매중",
-    description: [
-      "출퇴근용으로 관리한 PCX입니다.",
-      "연비 좋고 외관 상태 깨끗합니다.",
-    ],
-    specs: [
-      { label: "연식", value: "2022" },
-      { label: "주행거리", value: "8,900km" },
-      { label: "색상", value: "화이트" },
-      { label: "변속기", value: "자동" },
-      { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "125cc" },
-      { label: "차대번호", value: "PCX12-118090" },
-      { label: "등록지역", value: "경기 수원시" },
-      { label: "판매상태", value: "판매중" },
-    ],
-  },
-  {
-    id: "royal-enfield-classic-350-2021",
-    name: "로얄엔필드 클래식 350",
-    year: 2021,
-    category: "클래식",
-    price: 4200000,
-    listedAt: "2024.05.16",
-    image: bike5,
-    gallery: [bike5, bike8, bike2],
-    views: 155,
-    location: "대전 서구",
-    status: "판매중",
-    description: [
-      "감성 좋은 클래식 350입니다.",
-      "실내 보관 위주라 도장 상태가 좋습니다.",
-    ],
-    specs: [
-      { label: "연식", value: "2021" },
-      { label: "주행거리", value: "10,300km" },
-      { label: "색상", value: "블랙 크롬" },
-      { label: "변속기", value: "수동" },
-      { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "349cc" },
-      { label: "차대번호", value: "RE350-210553" },
-      { label: "등록지역", value: "대전 서구" },
-      { label: "판매상태", value: "판매중" },
-    ],
-  },
-  {
-    id: "bmw-r1250gs-2020",
-    name: "BMW R1250GS",
-    year: 2020,
-    category: "투어러",
-    price: 19900000,
-    listedAt: "2024.05.15",
-    image: bike6,
-    gallery: [bike6, bike1, bike2],
-    views: 512,
-    location: "부산 해운대구",
-    status: "판매중",
-    description: [
-      "장거리 투어링 세팅 완료된 R1250GS입니다.",
-      "박스류 포함 협의 가능합니다.",
-    ],
-    specs: [
-      { label: "연식", value: "2020" },
-      { label: "주행거리", value: "31,200km" },
-      { label: "색상", value: "블랙" },
-      { label: "변속기", value: "수동" },
-      { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "1,254cc" },
-      { label: "차대번호", value: "BMWGS-451892" },
-      { label: "등록지역", value: "부산 해운대구" },
-      { label: "판매상태", value: "판매중" },
-    ],
-  },
-  {
-    id: "ducati-panigale-v2-2022",
-    name: "두카티 파니갈레 V2",
-    year: 2022,
-    category: "스포츠",
-    price: 17500000,
-    listedAt: "2024.05.14",
-    image: bike7,
-    gallery: [bike7, bike3, bike1],
-    views: 344,
-    location: "서울 강남구",
-    status: "판매중",
-    description: [
-      "관리 잘 된 파니갈레 V2입니다.",
-      "짧은 주행거리와 깔끔한 외관이 장점입니다.",
-    ],
-    specs: [
-      { label: "연식", value: "2022" },
-      { label: "주행거리", value: "6,400km" },
-      { label: "색상", value: "레드" },
-      { label: "변속기", value: "수동" },
-      { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "955cc" },
-      { label: "차대번호", value: "DVP02-702133" },
-      { label: "등록지역", value: "서울 강남구" },
-      { label: "판매상태", value: "판매중" },
-    ],
-  },
-  {
-    id: "harley-davidson-road-king-2018",
-    name: "할리데이비슨 로드킹",
-    year: 2018,
-    category: "투어러",
-    price: 15800000,
-    listedAt: "2024.05.13",
-    image: bike8,
-    gallery: [bike8, bike5, bike6],
-    views: 276,
-    location: "대구 수성구",
-    status: "판매중",
-    description: [
-      "묵직한 감성의 로드킹입니다.",
-      "정비 이력 보유 중이며 시동 상태 좋습니다.",
-    ],
-    specs: [
-      { label: "연식", value: "2018" },
-      { label: "주행거리", value: "24,100km" },
-      { label: "색상", value: "블랙" },
-      { label: "변속기", value: "수동" },
-      { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "1,745cc" },
-      { label: "차대번호", value: "HDK18-838211" },
-      { label: "등록지역", value: "대구 수성구" },
-      { label: "판매상태", value: "판매중" },
-    ],
-  },
-  {
-    id: "yamaha-tmax-560-2021",
-    name: "야마하 TMAX 560",
-    year: 2021,
-    category: "스쿠터",
-    price: 11300000,
-    listedAt: "2024.05.12",
-    image: bike9,
-    gallery: [bike9, bike4, bike2],
-    views: 198,
-    location: "광주 북구",
-    status: "판매중",
-    description: [
-      "프리미엄 스쿠터 TMAX 560입니다.",
-      "도심과 외곽 모두 편안한 주행감을 제공합니다.",
-    ],
-    specs: [
-      { label: "연식", value: "2021" },
-      { label: "주행거리", value: "14,700km" },
-      { label: "색상", value: "매트 블랙" },
-      { label: "변속기", value: "자동" },
-      { label: "연료", value: "가솔린" },
-      { label: "배기량", value: "562cc" },
-      { label: "차대번호", value: "TMAX5-440102" },
-      { label: "등록지역", value: "광주 북구" },
-      { label: "판매상태", value: "판매중" },
-    ],
-  },
+  */
 ];
