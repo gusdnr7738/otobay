@@ -79,6 +79,7 @@ function Footer() {
         <div className="ml-auto border-l border-white/15 pl-10 pr-2 text-[18px] max-sm:ml-0 max-sm:border-l-0 max-sm:pl-0">
           <h3 className="font-bold text-white">SNS</h3>
           <div className="mt-4 flex gap-5">
+            {/*
             <a
               href="https://www.instagram.com/uuuukkkk_04/"
               target="_blank"
@@ -88,6 +89,8 @@ function Footer() {
             >
               <Instagram className="size-6" strokeWidth={2.2} />
             </a>
+            */}
+            
             <a
               href="https://www.youtube.com/@꿀매집합소정과장"
               target="_blank"
