@@ -1,0 +1,38 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Pretendard, Inter, system-ui, sans-serif;
+  background: #f4f4f5;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  display: block;
+}
+
+::selection {
+  background: rgba(232, 52, 47, 0.18);
+}
+
+@media (max-width: 640px) {
+  .shadow-soft {
+    box-shadow: none;
+  }
+}
