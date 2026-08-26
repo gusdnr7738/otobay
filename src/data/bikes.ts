@@ -1,17 +1,17 @@
-import bike1 from "../assets/bikes/bike-1.JPG";
-import bike1Detail1 from "../assets/bikes/bike-1-detail-1.JPG";
-import bike1Detail2 from "../assets/bikes/bike-1-detail-2.JPG";
-import bike1Detail3 from "../assets/bikes/bike-1-detail-3.JPG";
-import bike1Detail4 from "../assets/bikes/bike-1-detail-4.JPG";
-import bike1Detail5 from "../assets/bikes/bike-1-detail-5.JPG";
-import bike1Detail6 from "../assets/bikes/bike-1-detail-6.JPG";
-import bike1Detail7 from "../assets/bikes/bike-1-detail-7.JPG";
-import bike1Detail8 from "../assets/bikes/bike-1-detail-8.JPG";
-import bike1Detail9 from "../assets/bikes/bike-1-detail-9.JPG";
-import bike1Detail10 from "../assets/bikes/bike-1-detail-10.JPG";
-import bike1Detail11 from "../assets/bikes/bike-1-detail-11.JPG";
-import bike1Detail12 from "../assets/bikes/bike-1-detail-12.JPG";
-import bike1Detail13 from "../assets/bikes/bike-1-detail-13.JPG";
+import bike1 from "../assets/bikes/bike-1.jpg";
+import bike1Detail1 from "../assets/bikes/bike-1-detail-1.jpg";
+import bike1Detail2 from "../assets/bikes/bike-1-detail-2.jpg";
+import bike1Detail3 from "../assets/bikes/bike-1-detail-3.jpg";
+import bike1Detail4 from "../assets/bikes/bike-1-detail-4.jpg";
+import bike1Detail5 from "../assets/bikes/bike-1-detail-5.jpg";
+import bike1Detail6 from "../assets/bikes/bike-1-detail-6.jpg";
+import bike1Detail7 from "../assets/bikes/bike-1-detail-7.jpg";
+import bike1Detail8 from "../assets/bikes/bike-1-detail-8.jpg";
+import bike1Detail9 from "../assets/bikes/bike-1-detail-9.jpg";
+import bike1Detail10 from "../assets/bikes/bike-1-detail-10.jpg";
+import bike1Detail11 from "../assets/bikes/bike-1-detail-11.jpg";
+import bike1Detail12 from "../assets/bikes/bike-1-detail-12.jpg";
+import bike1Detail13 from "../assets/bikes/bike-1-detail-13.jpg";
 
 
 import type { Bike, BikeCategory } from "../types/bike";
