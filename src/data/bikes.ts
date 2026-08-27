@@ -33,6 +33,16 @@ import bike2detail15 from "../assets/bikes/bike-2-detail-15.jpg";
 import bike2detail16 from "../assets/bikes/bike-2-detail-16.jpg";
 import bike2detail17 from "../assets/bikes/bike-2-detail-17.jpg";
 
+import bike3 from "../assets/bikes/bike3.jpg";
+import bike3detail1 from "../assets/bikes/bike-3-detail-1.jpg";
+import bike3detail2 from "../assets/bikes/bike-3-detail-2.jpg";
+import bike3detail3 from "../assets/bikes/bike-3-detail-3.jpg";
+import bike3detail4 from "../assets/bikes/bike-3-detail-4.jpg";
+import bike3detail5 from "../assets/bikes/bike-3-detail-5.jpg";
+import bike3detail6 from "../assets/bikes/bike-3-detail-6.jpg";
+import bike3detail7 from "../assets/bikes/bike-3-detail-7.jpg";
+import bike3detail8 from "../assets/bikes/bike-3-detail-8.jpg";
+import bike3detail9 from "../assets/bikes/bike-3-detail-9.jpg";
 
 // 다음을 추가하고 싶으면 { id: ~~~ } 이 부분 전체를 복사해서 export const bikes: Bike[] = [ 이 안에 넣어!!!
 
@@ -50,7 +60,7 @@ export const categories: BikeCategory[] = [
 
 export const bikes: Bike[] = [
   {
-    id: "BMW-C400GT-25", // 한글, 띄워쓰기 금지 (띄워쓰기 필요하면 '-'로 대체)
+    id: "1", // 한글, 띄워쓰기 금지 (띄워쓰기 필요하면 '-'로 대체)
     name: "BMW C400GT 25년식",
     year: 2025,
     category: "스쿠터",
@@ -110,8 +120,8 @@ export const bikes: Bike[] = [
       { label: "판매상태", value: "판매중" },
     ],
   },
-  {
-    id: "hali-ST-22",
+   {
+    id: "2",
     name: "할리데이비슨 로드글라이드ST 22년식",
     year: 2022,
     category: "투어러",
@@ -168,6 +178,61 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "수동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "1923cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "3",
+    name: "벤쿱 125 26년식/신차",
+    year: 2026,
+    category: "스쿠터",
+    price: 3680000,
+    listedAt: "2026.08.26",
+    image: bike3, 
+    gallery: [
+      bike3detail1,
+      bike3detail2,
+      bike3detail3,
+      bike3detail4,
+      bike3detail5,
+      bike3detail6,
+      bike3detail7,
+      bike3detail8,
+      bike3detail9,
+     
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "2026년식 벤쿱125 모델입니다.",
+      "",
+      "■ 차량 특징",
+      "벤쿱 125는 클래식한 디자인과 편안한 주행감을 제공하는 스쿠터로",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2026년식의 신차로, 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• 프로모션",
+      "• 1.지넷 블랙박스와 알루미늄 탑박스",
+      "• 2.지넷 블랙박스와 EPP115L, 자석 거치대 (추가 20만원)",
+    
+      "",
+      "■ 판매 가격",
+      "368만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2026" },
+      { label: "주행거리", value: "0km" },
+      { label: "변속기", value: "자동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "124cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
