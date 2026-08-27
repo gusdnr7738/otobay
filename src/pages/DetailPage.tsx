@@ -28,15 +28,7 @@ export function DetailPage() {
   };
 
   return (
-    <section
-      className="mx-auto pb-8 pt-7 max-sm:px-4"
-      style={{
-        width: "100%",
-        maxWidth: "1400px",
-        paddingLeft: "190px",
-        paddingRight: "32px",
-      }}
-    >
+    <section className="px-8 pb-8 pt-7 max-sm:px-4">
       {/* 목록으로 돌아가기 */}
       <Link
         to="/"
@@ -47,30 +39,17 @@ export function DetailPage() {
       </Link>
 
       {/* 상품 영역 */}
-      <div
-        className="gap-8 max-lg:grid-cols-1"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "650px minmax(0, 1fr)",
-          gap: "32px",
-        }}
->
+      <div className="grid grid-cols-[392px_1fr] gap-6 max-md:grid-cols-1">
         {/* =========================
             왼쪽 - 이미지 영역
         ========================= */}
         <div>
           {/* 메인 이미지 */}
-          <div
-            className="relative overflow-hidden rounded-xl bg-zinc-100 shadow-md dark:bg-zinc-900"
-            style={{
-              width: "100%",
-              height: "390px",
-            }}
-          >
+          <div className="relative overflow-hidden rounded-md bg-zinc-100 shadow-sm dark:bg-zinc-900">
             <img
               src={currentImage}
               alt={`${bike.name} 대표 사진`}
-              className="h-full w-full object-cover"
+              className="aspect-[1.37] h-full w-full object-cover"
             />
 
             {/* 이전 버튼 */}
