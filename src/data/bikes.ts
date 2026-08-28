@@ -65,6 +65,16 @@ import bike4detail17 from "../assets/bikes/bike-4-detail-17.jpg";
 import bike4detail18 from "../assets/bikes/bike-4-detail-18.jpg";
 import bike4detail19 from "../assets/bikes/bike-4-detail-19.jpg";
 
+import bike5 from "../assets/bikes/bike5.jpg";
+import bike5detail1 from "../assets/bikes/bike-5-detail-1.jpg";
+import bike5detail2 from "../assets/bikes/bike-5-detail-2.jpg";
+import bike5detail3 from "../assets/bikes/bike-5-detail-3.jpg";
+import bike5detail4 from "../assets/bikes/bike-5-detail-4.jpg";
+import bike5detail5 from "../assets/bikes/bike-5-detail-5.jpg";
+import bike5detail6 from "../assets/bikes/bike-5-detail-6.jpg";
+import bike5detail7 from "../assets/bikes/bike-5-detail-7.jpg";
+import bike5detail8 from "../assets/bikes/bike-5-detail-8.jpg";
+import bike5detail9 from "../assets/bikes/bike-5-detail-9.jpg";
 
 // 다음을 추가하고 싶으면 { id: ~~~ } 이 부분 전체를 복사해서 export const bikes: Bike[] = [ 이 안에 넣어!!!
 
@@ -339,6 +349,59 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "수동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "1584cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "5",
+    name: "SYM 허스키 ADV 125 26년식/신차",
+    year: 2026,
+    category: "스쿠터",
+    price: 3990000,
+    listedAt: "2026.08.26",
+    image: bike5, 
+    gallery: [
+      bike5detail1,
+      bike5detail2,
+      bike5detail3,
+      bike5detail4,
+      bike5detail5,
+      bike5detail6,
+      bike5detail7,
+      bike5detail8,
+      bike5detail9,
+     
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "2026년식 SYM 허스키 ADV 125 모델입니다.",
+      "",
+      "■ 차량 특징",
+      "SYM 허스키 ADV 125는 ADV 디자인과 편안한 주행감을 제공하는 스쿠터로",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2026년식의 신차로, 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• 없음",
+      
+      "",
+      "■ 판매 가격",
+      "399만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2026" },
+      { label: "주행거리", value: "0km" },
+      { label: "변속기", value: "자동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "124cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
