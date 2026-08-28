@@ -44,6 +44,29 @@ import bike3detail7 from "../assets/bikes/bike-3-detail-7.jpg";
 import bike3detail8 from "../assets/bikes/bike-3-detail-8.jpg";
 import bike3detail9 from "../assets/bikes/bike-3-detail-9.jpg";
 
+import bike4 from "../assets/bikes/bike4.jpg";
+import bike4detail1 from "../assets/bikes/bike-4-detail-1.jpg";
+import bike4detail2 from "../assets/bikes/bike-4-detail-2.jpg";
+import bike4detail3 from "../assets/bikes/bike-4-detail-3.jpg";
+import bike4detail4 from "../assets/bikes/bike-4-detail-4.jpg";
+import bike4detail5 from "../assets/bikes/bike-4-detail-5.jpg";
+import bike4detail6 from "../assets/bikes/bike-4-detail-6.jpg";
+import bike4detail7 from "../assets/bikes/bike-4-detail-7.jpg";
+import bike4detail8 from "../assets/bikes/bike-4-detail-8.jpg";
+import bike4detail9 from "../assets/bikes/bike-4-detail-9.jpg";
+import bike4detail10 from "../assets/bikes/bike-4-detail-10.jpg";
+import bike4detail11 from "../assets/bikes/bike-4-detail-11.jpg";
+import bike4detail12 from "../assets/bikes/bike-4-detail-12.jpg";
+import bike4detail13 from "../assets/bikes/bike-4-detail-13.jpg";
+import bike4detail14 from "../assets/bikes/bike-4-detail-14.jpg";
+import bike4detail15 from "../assets/bikes/bike-4-detail-15.jpg";
+import bike4detail16 from "../assets/bikes/bike-4-detail-16.jpg";
+import bike4detail17 from "../assets/bikes/bike-4-detail-17.jpg";
+import bike4detail18 from "../assets/bikes/bike-4-detail-18.jpg";
+import bike4detail19 from "../assets/bikes/bike-4-detail-19.jpg";
+import bike4detail20 from "../assets/bikes/bike-4-detail-20.jpg";
+import bike4detail21 from "../assets/bikes/bike-4-detail-21.jpg";
+
 // 다음을 추가하고 싶으면 { id: ~~~ } 이 부분 전체를 복사해서 export const bikes: Bike[] = [ 이 안에 넣어!!!
 
 
@@ -233,6 +256,91 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "자동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "124cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "4",
+    name: "할리데이비슨 울트라 클래식 08년식",
+    year: 2008,
+    category: "투어러",
+    price: 11500000,
+    listedAt: "2026.08.28",
+    image: bike4, 
+    gallery: [
+      bike4detail1,
+      bike4detail2,
+      bike4detail3,
+      bike4detail4,
+      bike4detail5,
+      bike4detail6,
+      bike4detail7,
+      bike4detail8,
+      bike4detail9,
+      bike4detail10,
+      bike4detail11,
+      bike4detail12,
+      bike4detail13,
+      bike4detail14,
+      bike4detail15,
+      bike4detail16,
+      bike4detail17,
+      bike4detail18,
+      bike4detail19,
+      bike4detail20,
+      bike4detail21
+    
+     
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "2008년식 할리데이비슨 울트라 클래식 모델.",
+      "",
+      "■ 차량 특징",
+      "할리데이비슨 울트라 클래식은 클래식한 디자인과 편안한 주행감을 제공하는 투어러로",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2008년식의 중고차로, 관리 상태가 양호하며, 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• LED안개등",
+      "• 프론트 펜더 크롬몰딩",
+      "• 무릎페어링",
+      "• 엔진가드",
+      "• 휴대폰거치대",
+      "• USB 2구 충전포트",
+      "• 러기지 랙",
+      "• 새들백 가드",
+      "• 컵홀더",
+      "• 크롬 커버",
+      "• 슈퍼트랩 머플러",
+      "• 윌리지스컬 하이웨이 페그",
+      "• 윌리지스컬 핸들그립",
+      "• 윌리지스컬 캠커버",
+      "• 윌리지스컬 확장형 풋보드",
+      "• 윌리지스컬 확장형 텐덤 풋보드",
+      "• 윌리지스컬 오픈 흡기",
+      "• 윌리지스컬 시소기어",
+
+
+    
+      "",
+      "■ 판매 가격",
+      "1150만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2008" },
+      { label: "주행거리", value: "87000km" },
+      { label: "변속기", value: "수동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "1584cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
