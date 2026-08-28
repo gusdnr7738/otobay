@@ -64,8 +64,7 @@ import bike4detail16 from "../assets/bikes/bike-4-detail-16.jpg";
 import bike4detail17 from "../assets/bikes/bike-4-detail-17.jpg";
 import bike4detail18 from "../assets/bikes/bike-4-detail-18.jpg";
 import bike4detail19 from "../assets/bikes/bike-4-detail-19.jpg";
-import bike4detail20 from "../assets/bikes/bike-4-detail-20.jpg";
-import bike4detail21 from "../assets/bikes/bike-4-detail-21.jpg";
+
 
 // 다음을 추가하고 싶으면 { id: ~~~ } 이 부분 전체를 복사해서 export const bikes: Bike[] = [ 이 안에 넣어!!!
 
@@ -288,8 +287,7 @@ export const bikes: Bike[] = [
       bike4detail17,
       bike4detail18,
       bike4detail19,
-      bike4detail20,
-      bike4detail21
+     
     
      
     ],
