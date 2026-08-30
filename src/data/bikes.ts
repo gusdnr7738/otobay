@@ -167,6 +167,22 @@ import bike10detail13 from "../assets/bikes/bike-10-detail-13.jpg";
 import bike10detail14 from "../assets/bikes/bike-10-detail-14.jpg";
 import bike10detail15 from "../assets/bikes/bike-10-detail-15.jpg";
 
+import bike11 from "../assets/bikes/bike11.jpg";
+import bike11detail1 from "../assets/bikes/bike-11-detail-1.jpg";
+import bike11detail2 from "../assets/bikes/bike-11-detail-2.jpg";
+import bike11detail3 from "../assets/bikes/bike-11-detail-3.jpg";
+import bike11detail4 from "../assets/bikes/bike-11-detail-4.jpg";
+import bike11detail5 from "../assets/bikes/bike-11-detail-5.jpg";
+import bike11detail6 from "../assets/bikes/bike-11-detail-6.jpg";
+import bike11detail7 from "../assets/bikes/bike-11-detail-7.jpg";
+import bike11detail8 from "../assets/bikes/bike-11-detail-8.jpg";
+import bike11detail9 from "../assets/bikes/bike-11-detail-9.jpg";
+import bike11detail10 from "../assets/bikes/bike-11-detail-10.jpg";
+import bike11detail11 from "../assets/bikes/bike-11-detail-11.jpg";
+import bike11detail12 from "../assets/bikes/bike-11-detail-12.jpg";
+import bike11detail13 from "../assets/bikes/bike-11-detail-13.jpg";
+import bike11detail14 from "../assets/bikes/bike-11-detail-14.jpg";
+
 // 다음을 추가하고 싶으면 { id: ~~~ } 이 부분 전체를 복사해서 export const bikes: Bike[] = [ 이 안에 넣어!!!
 
 
@@ -849,6 +865,69 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "수동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "321cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "11",
+    name: "BMW R18 B 퍼스트 에디션 22년식 ",
+    year: 2022,
+    category: "투어러",
+    price: 27000000,
+    listedAt: "2026.08.30"  ,
+    image: bike11,
+    gallery: [
+      bike11detail1,
+      bike11detail2,
+      bike11detail3,
+      bike11detail4,
+      bike11detail5,
+      bike11detail6,
+      bike11detail7,
+      bike11detail8,
+      bike11detail9,
+      bike11detail10,
+      bike11detail11,
+      bike11detail12,
+      bike11detail13,
+      bike11detail14,
+      
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "BMW R18B 퍼스트 에디션 모델 입니다. ",
+      "",
+      "■ 차량 특징",
+      "BMW R18 B 개성있는 디자인과 편안한 주행감을 제공하는 바이크로",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2022년식의, 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• 랜딩 기어",
+      "• 시소 기어",
+      "• 엔진 가드",
+      "• 지넷 블랙박스",
+      "• 휴대폰 거치대",
+      
+      
+      "",
+      "■ 판매 가격",
+      "2700만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2022" },
+      { label: "주행거리", value: "10000km" },
+      { label: "변속기", value: "수동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "1802cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
