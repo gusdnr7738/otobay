@@ -227,11 +227,11 @@ export const bikes: Bike[] = [
     listedAt: "2026.08.25",
 
     // 대표 이미지
-    image: bike1,
+    image: bike1Detail1,
 
    // 대표 이미지
     gallery: [
-      bike1Detail1,
+      bike1,
       bike1Detail2,
       bike1Detail3,
       bike1Detail4,
