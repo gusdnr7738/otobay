@@ -150,7 +150,22 @@ import bike9detail17 from "../assets/bikes/bike-9-detail-17.jpg";
 import bike9detail18 from "../assets/bikes/bike-9-detail-18.jpg";
 import bike9detail19 from "../assets/bikes/bike-9-detail-19.jpg";
 
-
+import bike10 from "../assets/bikes/bike10.jpg";
+import bike10detail1 from "../assets/bikes/bike-10-detail-1.jpg";
+import bike10detail2 from "../assets/bikes/bike-10-detail-2.jpg";
+import bike10detail3 from "../assets/bikes/bike-10-detail-3.jpg";
+import bike10detail4 from "../assets/bikes/bike-10-detail-4.jpg";
+import bike10detail5 from "../assets/bikes/bike-10-detail-5.jpg";
+import bike10detail6 from "../assets/bikes/bike-10-detail-6.jpg";
+import bike10detail7 from "../assets/bikes/bike-10-detail-7.jpg";
+import bike10detail8 from "../assets/bikes/bike-10-detail-8.jpg";
+import bike10detail9 from "../assets/bikes/bike-10-detail-9.jpg";
+import bike10detail10 from "../assets/bikes/bike-10-detail-10.jpg";
+import bike10detail11 from "../assets/bikes/bike-10-detail-11.jpg";
+import bike10detail12 from "../assets/bikes/bike-10-detail-12.jpg";
+import bike10detail13 from "../assets/bikes/bike-10-detail-13.jpg";
+import bike10detail14 from "../assets/bikes/bike-10-detail-14.jpg";
+import bike10detail15 from "../assets/bikes/bike-10-detail-15.jpg";
 
 // 다음을 추가하고 싶으면 { id: ~~~ } 이 부분 전체를 복사해서 export const bikes: Bike[] = [ 이 안에 넣어!!!
 
@@ -770,6 +785,70 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "수동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "1868cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "10",
+    name: "야마하 YZF-R3",
+    year: 2020,
+    category: "스포츠",
+    price: 4600000,
+    listedAt: "2026.08.30"  ,
+    image: bike10,
+    gallery: [
+      bike10detail1,
+      bike10detail2,
+      bike10detail3,
+      bike10detail4,
+      bike10detail5,
+      bike10detail6,
+      bike10detail7,
+      bike10detail8,
+      bike10detail9,
+      bike10detail10,
+      bike10detail11,
+      bike10detail12,
+      bike10detail13,
+      bike10detail14,
+      bike10detail15,
+     
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "YAMAHA YZF-R3 모델 입니다. ",
+      "",
+      "■ 차량 특징",
+      "야마하 R3 잘빠진 디자인과 편안한 주행감을 제공하는 R차로",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2020년식의, 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• 조절식 클러치 레버, 브레이크 레버",
+      "• 핸들 밸런스",
+      "• 무선충전 휴대폰 거치대",
+      "• 탱크 패드",
+      "• 니그립 패드",
+      
+      
+      "",
+      "■ 판매 가격",
+      "460만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2020" },
+      { label: "주행거리", value: "15000km" },
+      { label: "변속기", value: "수동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "321cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
