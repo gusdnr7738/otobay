@@ -108,6 +108,28 @@ import bike7detail17 from "../assets/bikes/bike-7-detail-17.jpg";
 import bike7detail18 from "../assets/bikes/bike-7-detail-18.jpg";
 import bike7detail19 from "../assets/bikes/bike-7-detail-19.jpg";
 
+import bike8 from "../assets/bikes/bike8.jpg";
+import bike8detail1 from "../assets/bikes/bike-8-detail-1.jpg";
+import bike8detail2 from "../assets/bikes/bike-8-detail-2.jpg";
+import bike8detail3 from "../assets/bikes/bike-8-detail-3.jpg";
+import bike8detail4 from "../assets/bikes/bike-8-detail-4.jpg";
+import bike8detail5 from "../assets/bikes/bike-8-detail-5.jpg";
+import bike8detail6 from "../assets/bikes/bike-8-detail-6.jpg";
+import bike8detail7 from "../assets/bikes/bike-8-detail-7.jpg";
+import bike8detail8 from "../assets/bikes/bike-8-detail-8.jpg";
+import bike8detail9 from "../assets/bikes/bike-8-detail-9.jpg";
+import bike8detail10 from "../assets/bikes/bike-8-detail-10.jpg";
+import bike8detail11 from "../assets/bikes/bike-8-detail-11.jpg";
+import bike8detail12 from "../assets/bikes/bike-8-detail-12.jpg";
+import bike8detail13 from "../assets/bikes/bike-8-detail-13.jpg";
+import bike8detail14 from "../assets/bikes/bike-8-detail-14.jpg";
+import bike8detail15 from "../assets/bikes/bike-8-detail-15.jpg";
+import bike8detail16 from "../assets/bikes/bike-8-detail-16.jpg";
+import bike8detail17 from "../assets/bikes/bike-8-detail-17.jpg";
+import bike8detail18 from "../assets/bikes/bike-8-detail-18.jpg";
+
+
+
 
 
 // 다음을 추가하고 싶으면 { id: ~~~ } 이 부분 전체를 복사해서 export const bikes: Bike[] = [ 이 안에 넣어!!!
@@ -575,6 +597,79 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "수동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "999cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "8",
+    name: "혼다 포르자 750 24년식",
+    year: 2024,
+    category: "스쿠터",
+    price: 10800000,
+    listedAt: "2026.08.30"  ,
+    image: bike8,
+    gallery: [
+      bike8detail1,
+      bike8detail2,
+      bike8detail3,
+      bike8detail4,
+      bike8detail5,
+      bike8detail6,
+      bike8detail7,
+      bike8detail8,
+      bike8detail9,
+      bike8detail10,
+      bike8detail11,
+      bike8detail12,
+      bike8detail13,
+      bike8detail14,
+      bike8detail15,
+      bike8detail16,
+      bike8detail17,
+      bike8detail18,
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "2024년식 혼다 포르자 750 모델입니다.",
+      "",
+      "■ 차량 특징",
+      "혼다 포르자 750 잘빠진 디자인과 편안한 주행감을 제공하는 스쿠터로",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2024년식의, 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• 크로스바",
+      "• 열선그립",
+      "• 컵홀더",
+      "• 핸들밸런스",
+      "• 포크 슬라이더",
+      "• 탈리스만 안개등 (구변 완료)",
+      "• 6단 조절식 브레이크 레버",
+      "• 사이드 범퍼 가드",
+      "• 휠 테이프",
+      "• 아크라포빅 머플러 (구변완료)",
+      "• 쿨시트",
+      "• 포론트 웨이브 디스크",
+
+      
+      "",
+      "■ 판매 가격",
+      "1080만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2024" },
+      { label: "주행거리", value: "54000km" },
+      { label: "변속기", value: "자동, 수동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "745cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
