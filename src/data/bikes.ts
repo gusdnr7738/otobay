@@ -129,6 +129,26 @@ import bike8detail17 from "../assets/bikes/bike-8-detail-17.jpg";
 import bike8detail18 from "../assets/bikes/bike-8-detail-18.jpg";
 
 
+import bike9 from "../assets/bikes/bike9.jpg";
+import bike9detail1 from "../assets/bikes/bike-9-detail-1.jpg";
+import bike9detail2 from "../assets/bikes/bike-9-detail-2.jpg";
+import bike9detail3 from "../assets/bikes/bike-9-detail-3.jpg";
+import bike9detail4 from "../assets/bikes/bike-9-detail-4.jpg";
+import bike9detail5 from "../assets/bikes/bike-9-detail-5.jpg";
+import bike9detail6 from "../assets/bikes/bike-9-detail-6.jpg";
+import bike9detail7 from "../assets/bikes/bike-9-detail-7.jpg";
+import bike9detail8 from "../assets/bikes/bike-9-detail-8.jpg";
+import bike9detail9 from "../assets/bikes/bike-9-detail-9.jpg";
+import bike9detail10 from "../assets/bikes/bike-9-detail-10.jpg";
+import bike9detail11 from "../assets/bikes/bike-9-detail-11.jpg";
+import bike9detail12 from "../assets/bikes/bike-9-detail-12.jpg";
+import bike9detail13 from "../assets/bikes/bike-9-detail-13.jpg";
+import bike9detail14 from "../assets/bikes/bike-9-detail-14.jpg";
+import bike9detail15 from "../assets/bikes/bike-9-detail-15.jpg";
+import bike9detail16 from "../assets/bikes/bike-9-detail-16.jpg";
+import bike9detail17 from "../assets/bikes/bike-9-detail-17.jpg";
+import bike9detail18 from "../assets/bikes/bike-9-detail-18.jpg";
+import bike9detail19 from "../assets/bikes/bike-9-detail-19.jpg";
 
 
 
@@ -670,6 +690,86 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "자동, 수동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "745cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "9",
+    name: "할리데이비슨 스트리트 글라이드 스페셜 23년식",
+    year: 2023,
+    category: "투어러",
+    price: 32000000,
+    listedAt: "2026.08.30",
+    image: bike9, 
+    gallery: [
+      bike9detail1,
+      bike9detail2,
+      bike9detail3,
+      bike9detail4,
+      bike9detail5,
+      bike9detail6,
+      bike9detail7,
+      bike9detail8,
+      bike9detail9,
+      bike9detail10,
+      bike9detail11,
+      bike9detail12,
+      bike9detail13,
+      bike9detail14,
+      bike9detail15,
+      bike9detail16,
+      bike9detail17,
+      bike9detail18,
+      bike9detail19,
+     
+    
+     
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "2023년식 할리데이비슨 스트리트글라이드 스페셜.",
+      "",
+      "■ 차량 특징",
+      "할리데이비슨 울트라 클래식은 클래식한 디자인과 편안한 주행감을 제공하는 투어러로",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2023년식의 중고차로, 관리 상태가 양호하며, 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• 액슬캡",
+      "• 엔진가드",
+      "• 할리정품 하이웨이 페그",
+      "• 확장형 발판",
+      "• 텐덤 발판",
+      "• 새들백 가드",
+      "• 할리정품 새들백",
+      "• 멀티 등받이",
+      "• 할리정품 카후나 6단 조절식 열선",
+      "• 알루스 휴대폰 거치대",
+      "• 사이드 스탠드 연장킷",
+      "• 스크린 페어링",
+      "• 앞뒤 블랙박스 2채널",
+      "• 씨텍 인디게이터",
+      
+
+    
+      "",
+      "■ 판매 가격",
+      "3200만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2023" },
+      { label: "주행거리", value: "15000km" },
+      { label: "변속기", value: "수동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "1868cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
