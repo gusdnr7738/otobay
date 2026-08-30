@@ -87,7 +87,7 @@ import bike6detail7 from "../assets/bikes/bike-6-detail-7.jpg";
 import bike6detail8 from "../assets/bikes/bike-6-detail-8.jpg";
 import bike6detail9 from "../assets/bikes/bike-6-detail-9.jpg";
 
-import bike7 from "../assets/bikes/bike4.jpg";
+import bike7 from "../assets/bikes/bike7.jpg";
 import bike7detail1 from "../assets/bikes/bike-7-detail-1.jpg";
 import bike7detail2 from "../assets/bikes/bike-7-detail-2.jpg";
 import bike7detail3 from "../assets/bikes/bike-7-detail-3.jpg";
@@ -500,7 +500,8 @@ export const bikes: Bike[] = [
     category: "네이키드",
     price: 34800000,
     listedAt: "2026.08.30",
-    image: bike7, 
+    image: bike7,
+
     gallery: [
       bike7detail1,
       bike7detail2,
