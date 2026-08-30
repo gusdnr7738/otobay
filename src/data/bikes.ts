@@ -183,6 +183,26 @@ import bike11detail12 from "../assets/bikes/bike-11-detail-12.jpg";
 import bike11detail13 from "../assets/bikes/bike-11-detail-13.jpg";
 import bike11detail14 from "../assets/bikes/bike-11-detail-14.jpg";
 
+import bike12 from "../assets/bikes/bike12.jpg";
+import bike12detail1 from "../assets/bikes/bike-12-detail-1.jpg";
+import bike12detail2 from "../assets/bikes/bike-12-detail-2.jpg";
+import bike12detail3 from "../assets/bikes/bike-12-detail-3.jpg";
+import bike12detail4 from "../assets/bikes/bike-12-detail-4.jpg";
+import bike12detail5 from "../assets/bikes/bike-12-detail-5.jpg";
+import bike12detail6 from "../assets/bikes/bike-12-detail-6.jpg";
+import bike12detail7 from "../assets/bikes/bike-12-detail-7.jpg";
+import bike12detail8 from "../assets/bikes/bike-12-detail-8.jpg";
+import bike12detail9 from "../assets/bikes/bike-12-detail-9.jpg";
+import bike12detail10 from "../assets/bikes/bike-12-detail-10.jpg";
+import bike12detail11 from "../assets/bikes/bike-12-detail-11.jpg";
+import bike12detail12 from "../assets/bikes/bike-12-detail-12.jpg";
+import bike12detail13 from "../assets/bikes/bike-12-detail-13.jpg";
+import bike12detail14 from "../assets/bikes/bike-12-detail-14.jpg";
+import bike12detail15 from "../assets/bikes/bike-12-detail-15.jpg";
+import bike12detail16 from "../assets/bikes/bike-12-detail-16.jpg";
+import bike12detail17 from "../assets/bikes/bike-12-detail-17.jpg";
+
+
 // 다음을 추가하고 싶으면 { id: ~~~ } 이 부분 전체를 복사해서 export const bikes: Bike[] = [ 이 안에 넣어!!!
 
 
@@ -928,6 +948,75 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "수동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "1802cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "12",
+    name: "혼다 레블 1000dct 25년식",
+    year: 2025,
+    category: "투어러",
+    price: 14000000,
+    listedAt: "2026.08.30"  ,
+    image: bike12,
+    gallery: [
+      bike12detail1,
+      bike12detail2,
+      bike12detail3,
+      bike12detail4,
+      bike12detail5,
+      bike12detail6,
+      bike12detail7,
+      bike12detail8,
+      bike12detail9,
+      bike12detail10,
+      bike12detail11,
+      bike12detail12,
+      bike12detail13,
+      bike12detail14,
+      bike12detail15,
+      bike12detail16,
+      bike12detail17,
+      
+     
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "HONDA 레블 1100 DCT 모델 입니다. ",
+      "",
+      "■ 차량 특징",
+      "혼다 레블 1100DCT 레트로 디자인과 편안한 주행감을 제공하는 투어러바이크",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2025년식의, 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• GIVI 엔진가드",
+      "• 2채널 블랙박스",
+      "• 샤드 58L 탑박스",
+      "• 탑박스 브라켓",
+      "• 탱크패드",
+      "• 니그립패드",
+      "• 미들 윈드 스크린",
+      
+      
+      "",
+      "■ 판매 가격",
+      "1400만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2025" },
+      { label: "주행거리", value: "12000km" },
+      { label: "변속기", value: "반자동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "1083cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
