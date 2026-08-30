@@ -87,7 +87,26 @@ import bike6detail7 from "../assets/bikes/bike-6-detail-7.jpg";
 import bike6detail8 from "../assets/bikes/bike-6-detail-8.jpg";
 import bike6detail9 from "../assets/bikes/bike-6-detail-9.jpg";
 
-
+import bike7 from "../assets/bikes/bike4.jpg";
+import bike7detail1 from "../assets/bikes/bike-7-detail-1.jpg";
+import bike7detail2 from "../assets/bikes/bike-7-detail-2.jpg";
+import bike7detail3 from "../assets/bikes/bike-7-detail-3.jpg";
+import bike7detail4 from "../assets/bikes/bike-7-detail-4.jpg";
+import bike7detail5 from "../assets/bikes/bike-7-detail-5.jpg";
+import bike7detail6 from "../assets/bikes/bike-7-detail-6.jpg";
+import bike7detail7 from "../assets/bikes/bike-7-detail-7.jpg";
+import bike7detail8 from "../assets/bikes/bike-7-detail-8.jpg";
+import bike7detail9 from "../assets/bikes/bike-7-detail-9.jpg";
+import bike7detail10 from "../assets/bikes/bike-7-detail-10.jpg";
+import bike7detail11 from "../assets/bikes/bike-7-detail-11.jpg";
+import bike7detail12 from "../assets/bikes/bike-7-detail-12.jpg";
+import bike7detail13 from "../assets/bikes/bike-7-detail-13.jpg";
+import bike7detail14 from "../assets/bikes/bike-7-detail-14.jpg";
+import bike7detail15 from "../assets/bikes/bike-7-detail-15.jpg";
+import bike7detail16 from "../assets/bikes/bike-7-detail-16.jpg";
+import bike7detail17 from "../assets/bikes/bike-7-detail-17.jpg";
+import bike7detail18 from "../assets/bikes/bike-7-detail-18.jpg";
+import bike7detail19 from "../assets/bikes/bike-7-detail-19.jpg";
 
 
 
@@ -470,6 +489,91 @@ export const bikes: Bike[] = [
       { label: "변속기", value: "자동" },
       { label: "연료", value: "가솔린" },
       { label: "배기량", value: "124cc" },  
+      { label: "등록지역", value: "부산 광역시" },
+      { label: "판매상태", value: "판매중" },
+    ]
+  },
+  {
+    id: "7",
+    name: "bmw m1000rr 23년식",
+    year: 2023,
+    category: "네이키드",
+    price: 34800000,
+    listedAt: "2026.08.30",
+    image: bike7, 
+    gallery: [
+      bike7detail1,
+      bike7detail2,
+      bike7detail3,
+      bike7detail4,
+      bike7detail5,
+      bike7detail6,
+      bike7detail7,
+      bike7detail8,
+      bike7detail9,
+      bike7detail10,
+      bike7detail11,
+      bike7detail12,
+      bike7detail13,
+      bike7detail14,
+      bike7detail15,
+      bike7detail16,
+      bike7detail17,
+      bike7detail18,
+      bike7detail19,
+     
+    
+     
+    ],
+    views: 412,
+    location: "부산광역시",
+    status: "판매중",
+    description: [
+      "2023년식 bmw m1000rr 모델.",
+      "",
+      "■ 차량 특징",
+      "bmw m1000rr은 스포츠성과 성능을 동시에 제공하는 네이키드 바이크로",
+      "일상적인 통근과 주말 라이딩에 적합합니다.",
+      "2023년식의 최신 기술과 안전 기능이 적용되어 있습니다.",
+      "",
+      "장거리 투어링과 일상 주행 스포츠 주행 모두 편안하게 활용하기 좋은 모델입니다.",
+      "",
+      "■ 옵션 및 추가 구성",
+      "• 정품 아크라포빅 티타늄 중통",
+      "• 정품 오스틴 머플러",
+      "• 머플러 구조변경 완료",
+      "• 순정 아크라 포빅 머플러 보유",
+      "• 정품 m 배틀가드 클러치레버",
+      "• 정품 m 배틀가드 브레이크레버",
+      "• 정품 m 포크 슬라이더 앞뒤",
+      "• 정품 m 시트",
+      "• 사이드 커버 제외 전체 ppf",
+      "• bmw 모터라드 정품 엔진가드",
+      "• bmw 모터라드 정품 클러치 레버",
+      "• bmw 정품 라디에이터 가드",
+      "• 에보텍 프레임 슬라이더",
+      "• bmw 정품 캐노피",
+      "• 리조마 백미러",
+      "• 블랙홀 광각 미러(순정 바엔드 미러 보유)",
+      "• 각종 bmw 순정 카본 파츠",
+      "• 지넷 블랙박스",
+      "• 에보텍 픽디자인 휴대폰 거치대",
+
+
+    
+      "",
+      "■ 판매 가격",
+      "3480만원",
+      "",
+      "■ 기본 보증",
+      "엔진 및 미션은 2개월 또는 2,000KM까지 기본 보증 가능합니다.",
+    ],
+    specs: [
+      { label: "연식", value: "2023" },
+      { label: "주행거리", value: " 7000km" },
+      { label: "변속기", value: "수동" },
+      { label: "연료", value: "가솔린" },
+      { label: "배기량", value: "999cc" },  
       { label: "등록지역", value: "부산 광역시" },
       { label: "판매상태", value: "판매중" },
     ]
